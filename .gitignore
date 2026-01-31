@@ -1,0 +1,73 @@
+# ============================================
+# ONLY SCRIPT FILES - EXCLUDE ALL USER DATA
+# ============================================
+
+# ---------- ALL DATA FILES ----------
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Report files (Excel and Word)
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pdf
+
+# ALL CSV files (user data)
+*.csv
+
+# ---------- USER DATA FILES IN DIRECTORIES ----------
+# Ignore everything in data/ and reports/ directories
+# But keep the directories themselves (with README files)
+data/*
+reports/*
+
+# ============================================
+# PYTHON ARTIFACTS
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ============================================
+# VIRTUAL ENVIRONMENT
+# ============================================
+venv/
+env/
+ENV/
+.venv
+
+# ============================================
+# IDE EDITORS
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints
+
+# ============================================
+# ENVIRONMENT FILES
+# ============================================
+.env
+.env.local
+
+# ============================================
+# LOGS
+# ============================================
+*.log
