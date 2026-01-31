@@ -20,9 +20,11 @@
 
 # ---------- USER DATA FILES IN DIRECTORIES ----------
 # Ignore everything in data/ and reports/ directories
-# But keep the directories themselves (with README files)
+# But allow README.md files
 data/*
 reports/*
+!data/README.md
+!reports/README.md
 
 # ============================================
 # PYTHON ARTIFACTS
