@@ -22,7 +22,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application files
 COPY agent_availability.py .
-COPY sample_data/ ./sample_data/
 
 # Create directory for database and reports (visible directories)
 RUN mkdir -p /app/data /app/reports
